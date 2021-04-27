@@ -6,5 +6,5 @@ steps:
 - name: docker_build_step
   image: docker
   commands:
-  - docker build -t sampledjango -f Dockerfile
-  - docker run -it sampledjango
+  - docker build -t sampledjango:latest -f Dockerfile
+  - docker run -it sampledjango:latest
