@@ -6,8 +6,10 @@ steps:
 - name: docker
   image: plugins/docker
   settings:
-    username: hpareek07
-    password: Hp@7014251454##
+    username:
+      from_secret: username
+    password:
+      from_secret: password
     repo: hpareek07/alphadashboard
     tags:
       - latest
