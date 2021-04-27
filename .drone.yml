@@ -6,4 +6,4 @@ steps:
 - name: docker_build_step
   image: docker
   commands:
-  - sudo docker-compose pull && sudo docker-compose build && sudo docker-compose up -d
+  - docker-compose pull && docker-compose build && docker-compose up -d
