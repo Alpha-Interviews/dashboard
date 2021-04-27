@@ -8,4 +8,6 @@ steps:
   settings:
     username: hpareek07
     password: Hp@7014251454##
-    repo: dashboard/latest
+    repo: hpareek07/alphadashboard
+    tags:
+      - latest
