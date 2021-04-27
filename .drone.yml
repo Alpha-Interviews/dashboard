@@ -3,8 +3,9 @@ type: docker
 name: default
 
 steps:
-- name: docker_build_step
-  image: docker
-  commands:
-  - docker build -t sampledjango:latest -f Dockerfile
-  - docker run -it sampledjango:latest
+- name: docker
+  image: plugins/docker
+  settings:
+    username: hpareek07
+    password: Hp@7014251454##
+    repo: dashboard/latest
