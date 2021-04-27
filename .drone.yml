@@ -1,0 +1,13 @@
+kind: pipeline
+type: docker
+name: default
+
+steps:
+- name: docker
+  image: plugins/docker
+  settings:
+    username: hpareek07
+    password: Hp@7014251454##
+    repo: hpareek07/alphadashboard
+    tags:
+      - latest
