@@ -6,4 +6,5 @@ steps:
 - name: docker_build_step
   image: docker
   commands:
-  - docker-compose pull && docker-compose build && docker-compose up -d
+  - docker build -t sampledjango -f Dockerfile
+  - docker run -it sampledjango
